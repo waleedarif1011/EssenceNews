@@ -163,4 +163,4 @@ graph TD;
 
 ## 🏷️ Author
 
-**Waleed Arif** — Data Scientist Assessment 
+**Waleed Arif** — Data Scientist
