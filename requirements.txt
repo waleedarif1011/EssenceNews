@@ -1,0 +1,11 @@
+numpy>=1.26,<3
+pandas>=2.0,<3
+scikit-learn>=1.4,<2
+textblob>=0.18,<0.19
+spacy>=3.7,<4
+# Pin the small English model so HF Spaces / fresh envs get NER without a separate download step.
+en-core-web-sm @ https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-3.8.0/en_core_web_sm-3.8.0-py3-none-any.whl
+joblib>=1.3,<2
+gradio>=4.44,<6
+matplotlib>=3.8,<4
+pytest>=8.0,<9
