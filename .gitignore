@@ -1,0 +1,27 @@
+# Large raw / intermediate datasets (download via scripts/download_data.py)
+dataset/News_Category_Dataset_v3.json
+etl_output.csv
+structured_output.jsonl
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.eggs/
+dist/
+build/
+.venv/
+venv/
+.env
+
+# Jupyter / tooling
+.ipynb_checkpoints/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# OS / IDE
+.DS_Store
+.idea/
+.vscode/
